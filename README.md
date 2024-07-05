@@ -5,3 +5,6 @@ Step 1:
 
 Step 2:
 "yarn start" to start the project
+
+Step 3:
+visit http://localhost:3000/
