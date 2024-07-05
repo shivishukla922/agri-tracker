@@ -1,0 +1,17 @@
+.yaerly-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.yaerly-table th,
+  .yaerly-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .yaerly-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
