@@ -8,31 +8,16 @@ import CropAverageTable from "./Table/DataTable";
 function App() {
   const { yearlyData, cropAverages } = processData(data);
   return (
-    <MantineProvider withGlobalStyles
-    withNormalizeCSS
-    theme={{
-      colorScheme: "light",
-      fontFamily: "Poppins , sans-serif",
-      components: {
-        Input: {
-          styles: (theme) => ({
-            input: {
-              "&:focus-within": {
-                borderColor: "#1f7a1f",
-              },
-            },
-          }),
-        },
-    }}} >
+    <MantineProvider >
       <div>
-        <h1>Indian Agriculture Data Analysis</h1>
-        <div>
+        <h1  className="center-heading">Indian Agriculture Data Analysis</h1>
+        <div >
 
-        <h2>Yearly Data</h2>
+        <h2  className="center-heading" >Yearly Data</h2>
         <YearlyTable data={yearlyData} />
         </div>
         <div>
-        <h2>Crop Averages (1950-2020)</h2>
+        <h2  className="center-heading">Crop Averages (1950-2020)</h2>
         <CropAverageTable data={cropAverages} />
         </div>
       </div>

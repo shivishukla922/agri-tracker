@@ -8,3 +8,7 @@ Step 2:
 
 Step 3:
 visit http://localhost:3000/
+
+screenshot
+![screenshot](screenshot/Table1.png)
+![screenshot](screenshot/Table2.png)

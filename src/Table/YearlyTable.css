@@ -1,17 +1,20 @@
 .yaerly-table{
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
+    margin: auto;
+
 }
 .yaerly-table th,
   .yaerly-table td {
     border: 1px solid #ddd;
     padding: 8px;
+    text-align: center;
   }
   
   .yaerly-table th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: #f2f2f2;
   }
   

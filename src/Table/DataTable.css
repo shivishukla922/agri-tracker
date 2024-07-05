@@ -1,17 +1,19 @@
 .custom-table {
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
+  margin: auto;
 }
 
 .custom-table th,
 .custom-table td {
   border: 1px solid #ddd;
   padding: 8px;
+  text-align: center;
 }
 
 .custom-table th {
   padding-top: 12px;
   padding-bottom: 12px;
-  text-align: left;
+  text-align: center;
   background-color: #f2f2f2;
 }
